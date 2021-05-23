@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #03001a;
+}
+
+h1 {
+    color: #ccd6f6;
+  }
+
+#navigation {
+    background-color: #03001a;
+    
+}
+
+.logo-image {
+    width: 50px;
+}
+
+.navbar {
+    padding: 2% ;
+    border-bottom: 1px solid #007ff6;
+    
+}
+
+.picture-div{
+    text-align: center;
+}
+.picture {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #007ff6;
+    margin: -50px auto 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#heading .container {
+    text-align: center;
+}
+
+.header {
+    padding: 2% 17%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-family: 'Mate SC', serif;
+    color: yellow;
+}
+
+#forms .container {
+    padding: 3% 25%; 
+    text-align: center;
+}
+
+.columns {
+    margin: 10px auto;
+    text-align: left;
+}
+
+.inlabel {
+    background-color: #007ff62a;
+    color: #fff;
+}
+.form-label {
+    color: #fff;
+}
+
+.subbtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
