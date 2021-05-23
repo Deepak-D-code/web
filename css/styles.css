@@ -107,7 +107,7 @@ hr {
 
 .myimage {
   border-radius: 2%;
-  
+  width: 350px;
 }
 .transbox {
   position: absolute;
@@ -139,6 +139,9 @@ hr {
 .work-image {
   background-color: #fff;
   border-radius: 2%;
+  width: 400px;
+  height: 350px;
+  text-align: center;
 }
 
 #Experience hr {
@@ -361,12 +364,12 @@ margin: 50% ;
   }
 
   hr {
-    width: 60%;
+    width: 50%;
     margin-top: 5%;
     margin-left: auto;
   }
   #Experience hr {
-    width: 40%;
+    width: 20%;
     margin-top: 5%;
     margin-left: auto;
   }
@@ -385,4 +388,32 @@ margin: 50% ;
   .contact{
     text-align: center;
   }
+
+  .myimage {
+    width: 250px;
+    height: 250px;
+  }
+
+  .transbox {
+    width: 250px;
+    height:250px;
+  }
+
+
+  .work-transbox {
+    width: 250px;
+    height:250px;
+  }
+
+  .work-image {
+    width: 250px;
+    height: 250px;
+    
+  }
+
+  #Experience .container {
+    margin-left: 15px;
+  }
+
+
 }
