@@ -29,6 +29,10 @@ hr {
   padding: 2% 5%;
 }
 
+.nav-link {
+  padding-top: 18px;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,123,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -75,9 +79,9 @@ hr {
 
 ::selection {
   /* Change highlight background color to black */
-  background: #000;
+  background: rgb(46, 46, 46);
   /* Change highlight text color to red */
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   
 }
 
@@ -185,7 +189,7 @@ td{
 /* Footer */
 .contact {
   text-align: center;
-  padding: 13% 25%; 
+  padding: 13% 25% 1%; 
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -240,6 +244,15 @@ span{
   margin-top: 70px;
 }
 
+.Logo {
+  text-align: center;
+}
+.modified-logo-image {
+  width: 300px;
+  border-radius: 100%;
+  border:rgb(0, 123, 255) solid 3.5px;
+  margin-top: 10%;
+}
 
 
 
@@ -415,5 +428,8 @@ margin: 50% ;
     margin-left: 15px;
   }
 
+  .modified-logo-image {
+    width: 260px;
+  }
 
 }
